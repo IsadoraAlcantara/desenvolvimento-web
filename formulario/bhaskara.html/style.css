@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+    color: aliceblue;
+}
+.bt {
+    border: 1px solid #000000;
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 6px 20px;
+    text-decoration: none;
+    background-color: rebeccapurple;
+    color: aliceblue;
+    margin: 5px;
+  }
+  .fundo {
+    font-size: 18px;
+    margin: 1px;
+  }
+  .tudo {
+    align-items: center;
+  }
