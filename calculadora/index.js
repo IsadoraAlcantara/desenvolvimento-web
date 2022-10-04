@@ -25,8 +25,8 @@ function limpa_visor(event) {
     visor.innerHTML = "";
 }
 
-let body = document.getElementById(`body`);
-body.addEventListener('keypress', pressinou_tecla);
+let body = document.getElementById('body');
+body.addEventListener('keypress', pressionou_tecla);
 function pressionou_tecla(event) {
     if (event.key === "+") {
         visor.innerHTML = `+`;
