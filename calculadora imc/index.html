@@ -36,8 +36,9 @@
                 let estadoSaude = "";
         
                 if (imc < 15.99) {
-                    id="cor1"; 
-                    estadoSaude = "Magreza Grave"
+                    let resultado = document.getElementById(`resultado`);
+                    resultado.innerHTML = "Magreza Grave"
+                    resultado.style.color = "red";
                 }
                 else if (imc >= 16  && imc <= 16.99) {
                     id="cor2";
@@ -68,7 +69,7 @@
                     estadoSaude = "Obesidade Grau 3 (Mórbida)"
                 }
 
-                document.getElementById(`resultado`).innerHTML = `O imc: ${imc.toFixed(1)} <br> ${estadoSaude}`;
+                document.getElementById(`resultado`).innerHTML = `O imc: ${imc.toFixed(1)} <br> ${resultado.innerHTML}`;
             }
         </script>
     </div>
