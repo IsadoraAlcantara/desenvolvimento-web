@@ -38,7 +38,7 @@
                 if (imc < 15.99) {
                     let resultado = document.getElementById(`resultado`);
                     resultado.innerHTML = "Magreza Grave"
-                    resultado.style.color = "red";
+                    resultado.style.color = "black";
                 }
                 else if (imc >= 16  && imc <= 16.99) {
                     let resultado = document.getElementById(`resultado`);
@@ -48,29 +48,32 @@
                 else if (imc >= 17 && imc <= 18.5) {
                     let resultado = document.getElementById(`resultado`);
                     resultado.innerHTML = "Magreza Leve"
-                    resultado.style.color = "red";
+                    resultado.style.color = "orange";
                 }
                 else if (imc >= 18.5 && imc <= 24.9) {
                     let resultado = document.getElementById(`resultado`);
                     resultado.innerHTML = "Saudável"
-                    resultado.style.color = "red";
+                    resultado.style.color = "green";
                 }
                 else if (imc >= 25 && imc <= 29.9) {
                     let resultado = document.getElementById(`resultado`);
                     resultado.innerHTML = "Sobrepeso"
-                    resultado.style.color = "red";
+                    resultado.style.color = "yellow";
                 }
                 else if (imc >= 30 && imc <= 34.9) {
-                    id="cor6";
-                    estadoSaude = "Obesidade Grau 1"
+                    let resultado = document.getElementById(`resultado`);
+                    resultado.innerHTML = "Obesidade Grau 1"
+                    resultado.style.color = "orange";
                 }
                 else if (imc >= 35 && imc <= 39.9) {
-                    id="cor8";
-                    estadoSaude = "Obesidade Grau 2 (Severa)"
+                    let resultado = document.getElementById(`resultado`);
+                    resultado.innerHTML = "Obesidade Grau 2 (Severa)"
+                    resultado.style.color = "red";
                 }
                 else {
-                    id="cor9";
-                    estadoSaude = "Obesidade Grau 3 (Mórbida)"
+                    let resultado = document.getElementById(`resultado`);
+                    resultado.innerHTML = "Obesidade Grau 3 (Mórbida)"
+                    resultado.style.color = "black";
                 }
 
                 document.getElementById(`resultado`).innerHTML = `O imc: ${imc.toFixed(1)} <br> ${resultado.innerHTML}`;
