@@ -1,0 +1,14 @@
+
+h1 {
+    color: white;
+    text-align: center;
+}
+body {
+    background-image: linear-gradient(to right, #9e0c36, #210008) ;
+}
+.cor {
+    color: black
+}
+th, td {
+    color: white
+}
