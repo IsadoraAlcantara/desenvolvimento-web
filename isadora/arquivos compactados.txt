@@ -1,0 +1,11 @@
+Zip - É um formato de arquivo amplamente utilizado que é usado para compactar um ou mais arquivos juntos em um único local, reduzindo o tamanho geral e facilitando o transporte dos arquivos. Arquivos zip funcionam de modo muito similar a uma pasta padrão no computador.
+Arquivos zipados (compactados) ocupam menos espaço de armazenamento e podem ser transferidos para outros computadores mais rapidamente do que arquivos não compactados. No Windows, você trabalha com arquivos e pastas compactados da mesma forma que trabalhar com arquivos e pastas descompactados.
+O ZIP é um arquivo de formato aberto, ou seja, possui padrões e especificações disponibilizadas em domínio público, com utilização gratuita, sem limitações ou necessidade de atribuições legais e cobranças de royalties.
+
+Rar - É uma extensão de formato proprietário, protegido por direitos autorais. Destaca-se por apresentar uma maior taxa de compressão e permitir a compactação em arquivo.
+
+Tar - É um arquivo compactado que consiste em vários arquivos colocados em um.
+
+Gz - É um formato de arquivo compactado. Assim, ao combinarmos Tar e GZ em um Tar. GZ, obtemos um arquivo compactado.
+
+7z - É um formato de arquivo compactado criado com o software de código-fonte aberto 7-zip. É semelhante a um arquivo Zip, mas usa um método de compactação sem perdas diferente denominado LZMA para reduzir o tamanho do arquivo, embora preservando a qualidade.

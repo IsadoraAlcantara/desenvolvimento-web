@@ -1,0 +1,19 @@
+.
+├── 2007.txt
+├── arquivos
+├── arquivos compactados.txt
+├── ivonete
+│   ├── 1972.txt
+│   ├── lodovico
+│   │   └── 1937.txt
+│   └── maria
+│       └── 1942.txt
+├── juscelino
+│   ├── 1966.txt
+│   ├── jaci
+│   │   └── 1932.txt
+│   └── sebastião
+│       └── 1933.txt
+└── saida.txt
+
+6 directories, 10 files
