@@ -23,10 +23,14 @@ h3, h4, h5, h6, p {
     color: white;
 }
 
-table {
-    border: 1px white;
+.table {
     width: 90%;
     margin-inline: auto;
     margin-block: 1rem;
-    border-radius: 8px;
+}
+.container {
+    text-align: center;
+}
+.card-text{
+    color: black;
 }
