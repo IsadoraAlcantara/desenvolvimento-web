@@ -12,3 +12,21 @@ body {
 th, td {
     color: white
 }
+.divJogos {
+    border: 1px solid white;
+    width: 90%;
+    margin-inline: auto;
+    margin-block: 1rem;
+}
+h3, h4, h5, h6, p {
+    text-align: center;
+    color: white;
+}
+
+table {
+    border: 1px white;
+    width: 90%;
+    margin-inline: auto;
+    margin-block: 1rem;
+    border-radius: 8px;
+}
